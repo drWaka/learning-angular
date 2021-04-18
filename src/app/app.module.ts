@@ -3,8 +3,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { CourseComponent } from './course/course.component';
-import { CoursesComponent } from './courses.component';
-import { CoursesService } from './courses.services';
+import { CoursesComponent } from './courses/courses.component';
+import { CoursesService } from './courses/courses.services';
 
 @NgModule({
   declarations: [
